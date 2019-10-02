@@ -226,6 +226,8 @@
 			wp_reset_postdata(); 
 		?>
 
+
+
       </div> <!-- Entries End -->
 
    </section> <!-- Journal Section End-->
@@ -248,7 +250,7 @@
          <div class="three columns action">
 
             <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-
+			<button id="button">Смена цвета фона</button>
          </div>
 
       </div>
