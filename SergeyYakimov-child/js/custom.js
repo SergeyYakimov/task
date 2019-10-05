@@ -5,7 +5,7 @@ jQuery(function($){
 		$.ajax({
 			url: '/wp-admin/admin-ajax.php',
 			type: 'POST',
-			data: 'action=click', 
+			data: 'action=new_click', 
 			beforeSend: function( xhr ) {
 				$('#button').text('Загрузка...');	
 			},
