@@ -3,3 +3,140 @@ Theme Name:     SergeyYakimov-child
 Template:       SergeyYakimov
 Version:        0.1.0
 */
+
+a, a:visited {
+	color: lime;
+}
+
+a:hover {
+	color: blue;
+}
+
+#info h2 {
+    color: orange;
+    margin-bottom: 13px;
+}
+
+.logo div {
+	color: orange;
+	font-size: 14px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: lime;
+}
+
+.logo div:hover {
+	color: rgb(249, 166, 2, .4);
+}
+
+.portfolio-item .portfolio-item-meta h5 a {
+	color: orange;
+}
+
+#journal h1 {
+	text-transform: uppercase;
+}
+
+#journal a, #journal a:visited {
+    color: orange;
+}
+
+#journal a:hover {
+	text-decoration: underline;
+	text-decoration-color: gold;
+}
+
+#info .columns, #journal .columns {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#info .columns:hover, #journal .columns:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.button, .button:visited, button, 
+input[type="submit"], input[type="reset"], 
+input[type="button"] {
+	background-color: orange;
+}
+
+.button {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.button:hover  {
+	border-radius:200px 0px 200px 0px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#button {
+	font-size: 18px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: lime;
+}
+
+#button:hover {
+	box-shadow: 4px 30px 60px #fd7550d9, 0px 30px 60px #e43f33a3, -4px 30px 60px #ff8638ad;
+}
+
+#call-to-action {
+	min-height: 500px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+#tweets #twitter li {
+	border: 1px solid gold;
+}
+
+.footer-social li:hover {
+	transform: rotate(360deg);
+}
+
+#call-to-action .button:hover, #call-to-action .button:active {
+    background-color: gold;
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, 
+input[type="reset"]:hover, input[type="button"]:hover {
+	background-color: gold;
+}
+
+footer .footer-nav a {
+    color: blue;
+}
+
+footer .copyright {
+	display: flex;
+	flex-direction: column;
+}
+
+
+i{
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+ }
+ 
+
+i:hover{
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+ }

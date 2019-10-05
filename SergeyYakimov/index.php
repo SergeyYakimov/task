@@ -20,7 +20,7 @@
                         enim tellus ultrices elit.</p>
 						   </div>
                      <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-01.png" alt="" />
+                     	<img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-01.png" alt=""/>
                      </div>
 					   </div>
 				   </div>
@@ -37,7 +37,7 @@
                         Aenean condimentum, lacus sit amet luctus.</p>
 						   </div>
                      <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-02.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-02.png" alt=""/>
                      </div>
 					   </div>
 				   </div>
@@ -110,7 +110,7 @@
     		   <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/geometrics.jpg">
+    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/geometrics.jpg" alt=""/>
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -124,7 +124,7 @@
             <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/console.jpg">
+    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/console.jpg" alt=""/>
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -138,7 +138,7 @@
             <div class="columns portfolio-item s-first">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/camera-man.jpg">
+    				   	<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/camera-man.jpg" alt=""/>
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -152,7 +152,7 @@
             <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/into-the-light.jpg">
+    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/into-the-light.jpg" alt=""/>
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -250,7 +250,7 @@
          <div class="three columns action">
 
             <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-			<button id="button">Смена цвета фона</button>
+			      <button class="send" id="button">Смена цвета фона</button>
          </div>
 
       </div>
