@@ -10,9 +10,9 @@ const sectionCallBlock = document.querySelector('#call-to-action');
 
 
 const backgroundChangeHandler = function (evt) {
-	evt.preventDefault();
+    evt.preventDefault();
 
-	(bodyBlock.hasAttribute('style') && bodyBlock.style.background == 'red') ? bodyBlock.removeAttribute('style') : bodyBlock.style.background = 'red';
+    (bodyBlock.hasAttribute('style') && bodyBlock.style.background == 'red') ? bodyBlock.removeAttribute('style') : bodyBlock.style.background = 'red';
     headerBlock.hasAttribute('style') ? headerBlock.removeAttribute('style') : headerBlock.style.background = 'red';
     tweetsBlock.hasAttribute('style') ? tweetsBlock.removeAttribute('style') : tweetsBlock.style.background = 'red';
     sliderBlock.hasAttribute('style') ? sliderBlock.removeAttribute('style') : sliderBlock.style.background = 'red';
@@ -20,7 +20,7 @@ const backgroundChangeHandler = function (evt) {
     sectionWorksBlock.hasAttribute('style') ? sectionWorksBlock.removeAttribute('style') : sectionWorksBlock.style.background = 'red';
     sectionJournalBlock.hasAttribute('style') ? sectionJournalBlock.removeAttribute('style') : sectionJournalBlock.style.background = 'red';
     sectionCallBlock.hasAttribute('style') ? sectionCallBlock.removeAttribute('style') : sectionCallBlock.style.background = 'red';
-    
+
 };
 
 backgroundButton.addEventListener('click', backgroundChangeHandler);

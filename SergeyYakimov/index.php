@@ -1,280 +1,288 @@
 <?php get_header(); ?>
 
-   <!-- Intro Section
-   ================================================== -->
-   <section id="intro">
+<!-- Intro Section
+================================================== -->
+<section id="intro">
 
-      <!-- Flexslider Start-->
-	   <div id="intro-slider" class="flexslider">
+    <!-- Flexslider Start-->
+    <div id="intro-slider" class="flexslider">
 
-		   <ul class="slides">
-
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Free amazing site template<span>.</span></h1>
-							   <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                        enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                        enim tellus ultrices elit.</p>
-						   </div>
-                     <div class="slider-image">
-                     	<img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-01.png" alt=""/>
-                     </div>
-					   </div>
-				   </div>
-			   </li>
+        <ul class="slides">
 
             <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Responsive + HTML5 + CSS3<span>.</span></h1>
-							   <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti eos et accusamus. amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis.
-                        Aenean condimentum, lacus sit amet luctus.</p>
-						   </div>
-                     <div class="slider-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-02.png" alt=""/>
-                     </div>
-					   </div>
-				   </div>
-			   </li>
+            <li>
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="slider-text">
+                            <h1>Free amazing site template<span>.</span></h1>
+                            <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
+                                enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. lacus sit
+                                amet luctus lobortis, dolores et quas molestias excepturi
+                                enim tellus ultrices elit.</p>
+                        </div>
+                        <div class="slider-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-01.png"
+                                 alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </li>
 
-		   </ul>
+            <!-- Slide -->
+            <li>
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="slider-text">
+                            <h1>Responsive + HTML5 + CSS3<span>.</span></h1>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum
+                                deleniti eos et accusamus. amet consequat enim elit noneas sit amet luctu. lacus sit
+                                amet luctus lobortis.
+                                Aenean condimentum, lacus sit amet luctus.</p>
+                        </div>
+                        <div class="slider-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sliders/home-slider-image-02.png"
+                                 alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </li>
 
-	   </div> <!-- Flexslider End-->
+        </ul>
 
-   </section> <!-- Intro Section End-->
+    </div> <!-- Flexslider End-->
 
-   <!-- Info Section
-   ================================================== -->
-   <section id="info">
+</section> <!-- Intro Section End-->
 
-      <div class="row">
+<!-- Info Section
+================================================== -->
+<section id="info">
 
-         <div class="bgrid-quarters s-bgrid-halves">
+    <div class="row">
 
-           <div class="columns">
-              <h2>Clean & Modern.</h2>
+        <div class="bgrid-quarters s-bgrid-halves">
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+            <div class="columns">
+                <h2>Clean & Modern.</h2>
 
-           <div class="columns">
-              <h2>Responsive.</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+            </div>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+            <div class="columns">
+                <h2>Responsive.</h2>
 
-           <div class="columns s-first">
-              <h2>HTML5 + CSS3.</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+            </div>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+            <div class="columns s-first">
+                <h2>HTML5 + CSS3.</h2>
 
-           <div class="columns">
-              <h2>Free of Charge.</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+            </div>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+            <div class="columns">
+                <h2>Free of Charge.</h2>
 
-           </div>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+            </div>
 
-      </div>
+        </div>
 
-   </section> <!-- Info Section End-->
+    </div>
 
-   <!-- Works Section
-   ================================================== -->
-   <section id="works">
+</section> <!-- Info Section End-->
 
-      <div class="row">
+<!-- Works Section
+================================================== -->
+<section id="works">
 
-         <div class="twelve columns align-center">
+    <div class="row">
+
+        <div class="twelve columns align-center">
             <h1>Some of our recent works.</h1>
-         </div>
+        </div>
 
-         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
-
-    		   <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/geometrics.jpg" alt=""/>
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Geometrics</a></h5>
-                     <p>Illustration</p>
-    					</div>
-               </div>
-    			</div>
+        <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
 
             <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/console.jpg" alt=""/>
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Console</a></h5>
-                     <p>Web Development</p>
-    					</div>
-               </div>
-    			</div>
+                <div class="item-wrap">
+                    <a href="portfolio.html">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/geometrics.jpg" alt=""/>
+                        <div class="overlay"></div>
+                        <div class="link-icon"><i class="fa fa-link"></i></div>
+                    </a>
+                    <div class="portfolio-item-meta">
+                        <h5><a href="portfolio.html">Geometrics</a></h5>
+                        <p>Illustration</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns portfolio-item">
+                <div class="item-wrap">
+                    <a href="portfolio.html">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/console.jpg" alt=""/>
+                        <div class="overlay"></div>
+                        <div class="link-icon"><i class="fa fa-link"></i></div>
+                    </a>
+                    <div class="portfolio-item-meta">
+                        <h5><a href="portfolio.html">Console</a></h5>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="columns portfolio-item s-first">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-    				   	<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/camera-man.jpg" alt=""/>
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Camera Man</a></h5>
-                     <p>Photography</p>
-    					</div>
-               </div>
-    			</div>
+                <div class="item-wrap">
+                    <a href="portfolio.html">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/camera-man.jpg" alt=""/>
+                        <div class="overlay"></div>
+                        <div class="link-icon"><i class="fa fa-link"></i></div>
+                    </a>
+                    <div class="portfolio-item-meta">
+                        <h5><a href="portfolio.html">Camera Man</a></h5>
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-    				 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/into-the-light.jpg" alt=""/>
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Into The Light</a></h5>
-                     <p>Branding</p>
-    					</div>
-               </div>
-    			</div>
+                <div class="item-wrap">
+                    <a href="portfolio.html">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/into-the-light.jpg"
+                             alt=""/>
+                        <div class="overlay"></div>
+                        <div class="link-icon"><i class="fa fa-link"></i></div>
+                    </a>
+                    <div class="portfolio-item-meta">
+                        <h5><a href="portfolio.html">Into The Light</a></h5>
+                        <p>Branding</p>
+                    </div>
+                </div>
+            </div>
 
-         </div>
+        </div>
 
-      </div>
+    </div>
 
-   </section> <!-- Works Section End-->
+</section> <!-- Works Section End-->
 
-   <!-- Journal Section
-   ================================================== -->
-   <section id="journal">
+<!-- Journal Section
+================================================== -->
+<section id="journal">
 
-      <div class="row">
-         <div class="twelve columns align-center">
+    <div class="row">
+        <div class="twelve columns align-center">
             <h1>Our latest posts and rants.</h1>
-         </div>
-      </div>
+        </div>
+    </div>
 
-      <div class="blog-entries">
+    <div class="blog-entries">
 
-		<?php 
-			$posts = get_posts( array(
-				'numberposts' => 3,
-				'orderby'     => 'date',
-				'post_type'   => 'post',
-				'suppress_filters' => true, 
-			) );
+		<?php
+		$posts = get_posts( array(
+			'numberposts'      => 3,
+			'orderby'          => 'date',
+			'post_type'        => 'post',
+			'suppress_filters' => true,
+		) );
 
-			foreach( $posts as $post ){
-				setup_postdata($post); ?>
+		foreach ( $posts as $post ) {
+			setup_postdata( $post ); ?>
 
-				<!-- Entry -->
-		         <article class="row entry">
+            <!-- Entry -->
+            <article class="row entry">
 
-		            <div class="entry-header">
+                <div class="entry-header">
 
-		               <div class="permalink">
-		                  <a href="<?php the_permalink(); ?>"><i class="fa fa-link"></i></a>
-		               </div>
+                    <div class="permalink">
+                        <a href="<?php the_permalink(); ?>"><i class="fa fa-link"></i></a>
+                    </div>
 
-		               <div class="ten columns entry-title pull-right">
-		                  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-		               </div>
+                    <div class="ten columns entry-title pull-right">
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    </div>
 
-		               <div class="two columns post-meta end">
-		                  <p>
-		                  <time datetime="2014-01-31" class="post-date" pubdate=""><?php the_time('F jS, Y'); ?></time>
-		                  <span class="dauthor">By <?php the_author(); ?></span>
-		                  </p>
-		               </div>
+                    <div class="two columns post-meta end">
+                        <p>
+                            <time datetime="2014-01-31" class="post-date"
+                                  pubdate=""><?php the_time( 'F jS, Y' ); ?></time>
+                            <span class="dauthor">By <?php the_author(); ?></span>
+                        </p>
+                    </div>
 
-		            </div>
+                </div>
 
-		            <div class="ten columns offset-2 post-content">
-		               <p><?php the_excerpt(); ?>
-		               <a class="more-link" href="<?php the_permalink(); ?>">Read More<i class="fa fa-arrow-circle-o-right"></i></a></p>
-		            </div>
+                <div class="ten columns offset-2 post-content">
+                    <p><?php the_excerpt(); ?>
+                        <a class="more-link" href="<?php the_permalink(); ?>">Read More<i
+                                    class="fa fa-arrow-circle-o-right"></i></a></p>
+                </div>
 
-		         </article> <!-- Entry End -->
-			    
-			<?php }
+            </article> <!-- Entry End -->
 
-			wp_reset_postdata(); 
+		<?php }
+
+		wp_reset_postdata();
 		?>
 
 
+    </div> <!-- Entries End -->
 
-      </div> <!-- Entries End -->
+</section> <!-- Journal Section End-->
 
-   </section> <!-- Journal Section End-->
+<!-- Call-To-Action Section
+================================================== -->
+<section id="call-to-action">
 
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
+    <div class="row">
 
-      <div class="row">
-
-         <div class="eight columns offset-1">
+        <div class="eight columns offset-1">
 
             <h1><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h1>
-            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
-					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
+            <p>Looking for an awesome and reliable webhosting? Try <a
+                        href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+                Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>.
+                <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
 
-         </div>
+        </div>
 
-         <div class="three columns action">
+        <div class="three columns action">
 
             <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-			      <button class="send" id="button">Смена цвета фона</button>
-         </div>
+            <button class="send" id="button">Смена цвета фона</button>
+        </div>
 
-      </div>
+    </div>
 
-   </section> <!-- Call-To-Action Section End-->
+</section> <!-- Call-To-Action Section End-->
 
-   <!-- Tweets Section
-   ================================================== -->
-   <section id="tweets">
+<!-- Tweets Section
+================================================== -->
+<section id="tweets">
 
-      <div class="row">
+    <div class="row">
 
-         <div class="tweeter-icon align-center">
+        <div class="tweeter-icon align-center">
             <i class="fa fa-twitter"></i>
-         </div>
+        </div>
 
-         <ul id="twitter" class="align-center">
+        <ul id="twitter" class="align-center">
             <li>
                <span>
                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
                <a href="#">http://t.co/CGIrdxIlI3</a>
                </span>
-               <b><a href="#">2 Days Ago</a></b>
+                <b><a href="#">2 Days Ago</a></b>
             </li>
             <!--
             <li>
@@ -286,13 +294,13 @@
                <b><a href="#">3 Days Ago</a></b>
             </li>
             -->
-         </ul>
+        </ul>
 
-         <p class="align-center"><a href="#" class="button">Follow us</a></p>
+        <p class="align-center"><a href="#" class="button">Follow us</a></p>
 
-      </div>
+    </div>
 
-   </section> <!-- Tweet Section End-->
+</section> <!-- Tweet Section End-->
 
 <?php get_footer(); ?>
 
